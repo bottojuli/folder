@@ -1,0 +1,12 @@
+/* This class can be reused in as many tags as we want with no problem. */
+.main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+} 
+/* We can't use the id of 'active' anywhere else on the page, but we can use another id with a different value if we  
+needed to. By using the # we target the id in css. */ 
+
+#active {
+    background-color: white;
+    color: steelblue;
+}
